@@ -1,0 +1,21 @@
+W = "Delali"
+K = "Siabi"
+L = "Kwame"
+print ("MY NAME IS") (W) (K) (S)
+W = "Delali "
+K = "Kwame "
+L = "Siabi"
+print(W)
+print("My name is" + " " + W + K + L)
+print(2+3)
+print(2*3)
+print(7%5)
+print(7/2)
+age = 23
+message = "Happy " + str(age) + "rd Birthday"
+print(message.upper())
+import this
+cars = ["BEnz", "Lambourgini", "BUGAgttI", "Gle"]
+print(cars[0].lower())
+print(cars[2].upper())
+
