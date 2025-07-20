@@ -1,0 +1,18 @@
+cars = ["BEnz", "Lambourgini", "BUGAgttI", "Gle"]
+print(cars[-1].upper() + " is my favourite car.")
+names = ["Papa Yaw", "Nana Yaw", "Kevin", "Augustine Ayertey", "Boamah Ansong"]
+print(names[0])
+print(names[1])
+print(names[2])
+print(names[-2])
+print(names[-1]) 
+name = "Siabi"
+print(name)
+name = ["Siabi", "Delali", "Kwame"]
+print(name[0] + " " + name[1] + " " + name[-1])
+
+#name[0] = Belinda 
+#print(name[0].upper())
+#The two lines of code above wont work because the is an absense of a quotation mark around Belinda 
+name[0] = "Belinda" 
+print(name[0].upper())
