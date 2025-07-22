@@ -1,0 +1,42 @@
+print("hello world")
+name = ['Honda', 'Benz', 'Picanto']
+print(name[0].title())
+print(name[1].upper())
+name.append('Land Cruiser')
+print(name[-1])
+print(name)
+
+cars = []
+cars.append('Benz')
+print(cars[-1].upper())
+cars.append('Picanto')
+print(cars[-1].upper())
+cars.append('Land Cruiser')
+print(cars[-1].upper())
+cars.append('Ferrari')
+print(cars[-1].upper())
+
+names = ['Siabi', 'Delali', 'Kwame']
+names.insert(0, 'Kofi')
+print(names)
+
+cars.insert(-1, 'Suzuki')
+print(cars)
+
+names.insert(0, 'Adwoa')
+print(names)
+
+
+cars = ['Benz', 'Bugatti', 'Lambourgini']
+#cars.append('Land Cruiser')
+#cars.append('Land CRuiser')
+cars.insert(0, 'Land Cruiser')
+print(cars)
+print(cars[0])
+
+cars = []
+cars.append('Bugatti')
+cars.append('LAnd Cruiser')
+cars.append('Range ROver')
+print(cars)
+
