@@ -1,0 +1,43 @@
+#Try it yourself
+guest = ['Delali', 'Kwame', 'Siabi']
+print(guest[0] + ", you are invited to tonight's party")
+print(guest[1] + ", you are invited to tonight's party")
+print(guest[2] + ", you are invited to tonight's party")
+
+guest.remove('Siabi')
+guest.append('Elinam')
+print(guest[0] + ", you are invited to tonight's party")
+print(guest[1] + ", you are invited to tonight's party")
+print(guest[2] + ", you are invited to tonight's party")
+
+guest.insert(0, 'Mayaa')
+guest.insert(2, 'Belinda')
+guest.append('Comfort')
+print(guest)
+print(guest[0] + ", you are invited to tonight's party")
+print(guest[1] + ", you are invited to tonight's party")
+print(guest[2] + ", you are invited to tonight's party")
+print(guest[3] + ", you are invited to tonight's party")
+print(guest[4] + ", you are invited to tonight's party")
+print(guest[5] + ", you are invited to tonight's party")
+print("I'm so sorry for the incovenience but I can invite only two people for dinner.")
+
+sorry_one = guest.pop(0)
+print(sorry_one + ", I'm so sorry we won't have a seat for you" )
+
+sorry_two = guest.pop(1)
+print(sorry_two + ", I'm so sorry we won't have a seat for you" )
+
+sorry_three = guest.pop(2)
+print(sorry_three + ", I'm so sorry we won't have a seat for you" )
+
+#sorry_four = guest.remove('Kwame')
+#print(sorry_four + ", I'm so sorry we won't have a seat for you" )
+
+print(guest[0] + ", you are still invited.")
+print(guest[1] + ", you are still invited.")
+del guest[0]
+del guest[1]
+print(guest)
+del guest[0]
+print(guest)
